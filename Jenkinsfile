@@ -8,8 +8,8 @@ pipeline {
             steps {
                 script {
                     gitCheckout{
-                        branch: 'main',
-                        url: 'https://github.com/sus20/mrdevops_java_app.git'
+                        branch: "main",
+                        url: "https://github.com/sus20/mrdevops_java_app.git"
 
                     }
                 }
